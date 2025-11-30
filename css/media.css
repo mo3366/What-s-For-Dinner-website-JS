@@ -15,6 +15,13 @@
     display: none;
   }
 
+  .fs-lg-sm{
+font-size: 25px;
+}
+.fs-lg-sm-span{
+font-size: 16px;
+color: rgb(104, 104, 104);
+}
  
 }
 

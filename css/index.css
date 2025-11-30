@@ -10,6 +10,13 @@ h1,h2,h3,h4,h5,h6,p {
   margin: 0;
   padding: 0;
 }
+.fs-lg-sm{
+font-size: 18px;
+}
+.fs-lg-sm-span{
+font-size: 14px;
+color: rgb(104, 104, 104);
+}
 header .container{
   background-color: rgb(255,251,235);
 
@@ -89,6 +96,12 @@ span i:hover{
   
   border: 2px solid var(--main-color);
  }
+ .main-logo{
+  width: 60px;
+  height: 60px;
+  
+  border: 2px solid var(--main-color);
+ }
 
 header section.section1 {
  height: 90%;
@@ -112,7 +125,8 @@ header section.section1 {
 }
 .badge-2{
   bottom: 4%;
-  left: 13%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .alert-red{
@@ -183,6 +197,9 @@ header section.section1 {
     background: 0 0;
     border: 0;
     font-weight: bold;
+        font-size: 1rem;
+        padding-inline: 0px;
+
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 .tab-content{
