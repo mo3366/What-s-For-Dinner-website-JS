@@ -88,16 +88,16 @@
       <div
         class="container d-flex align-items-center justify-content-center   "
       >
-        <section class="section1 row rounded-5 overflow-hidden bg-white border border-1 w-100 ">
+        <section class="section1 row rounded-5 overflow-hidden bg-white border border-1 w-100 " >
 
-          <div class="img-hero  position-relative col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 bg-black p-0 "
+          <div class="img-hero  position-relative col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 bg-black p-0  " id="ImgInfo"
           >
-            <img src="img/hero-bg.jpg" alt="food" class="p-0" />
+            <img src="img/2.jpeg" alt="food" class="p-0" />
 
             <div class="badge-1 position-absolute bg-white rounded-pill p-1">
               <span class="d-flex align-items-center gap-2 p-1">
                 <i class="fa-solid fa-star text-warning"></i>
-                <p>4.8</p>
+                <p class="fw-bold" >4.8</p>
                 <span>(234 reviews)</span>
               </span>
             </div>
@@ -129,16 +129,17 @@
             </div>
           </div>
 
-          <div  class="content p-5 col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7  "
+          <div  class="content p-5 col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7  " id="content"
           >
-            <span class="badge rounded-pill bg-success-subtle text-success p-2 me-2 opacity-75 "
+          <div id="top-content">
+      <span class="badge rounded-pill bg-success-subtle text-success p-2 me-2 opacity-75 "
               >Intermediate</span
             >
             <span
               class="badge rounded-pill text-bg-primary bg-info-subtle text-primary p-2"
               >Mediterranean</span
             >
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-center" >
                           <h1 class="fw-bold my-2 mt-3">Greek Moussaka</h1>
               <div class="d-flex">
                 <span class="icon-Greek rounded-4 me-2"><i class="fa-solid fa-bookmark"></i></span>
@@ -157,6 +158,8 @@
               </div>
             </div>
 
+          </div>
+        
             <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
             <ul
               class="nav nav-pills mb-3 d-flex justify-content-between "
@@ -224,7 +227,7 @@
             <div class="tab-content m-auto" id="pills-tabContent ">
               <!-- --------------------------------------------------------------------------------------------------------------- -->
               <div
-                class="tab-pane fade show active "
+                class="tab-pane fade show active bg-list "
                 id="pills-home"
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
@@ -308,7 +311,7 @@
                 tabindex="0"
               >
                 <div class="mt-2">
-                  <section class="w-100 bg-list rounded-4 p-2">
+                  <section class="w-100  rounded-4 p-2">
                     <div class="d-flex align-items-center">
                       <span
                         class="rounded-3 bg-main-color d-inline-flex justify-content-center align-items-center icon-size-2 text-white m-3 fw-bold"
@@ -546,7 +549,7 @@
             </div>
 
             <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
-            <button  class="botton-hero text-white p-3 rounded-3 fw-bold fs-6 transiftion mt-4" onclick="console.log('momen') ">
+            <button  class="botton-hero text-white p-3 rounded-3 fw-bold fs-6 transiftion mt-4" onclick="replace() ">
               <i class="fa-solid fa-rotate"></i> Try Another Recipe
             </button>
           </div>
