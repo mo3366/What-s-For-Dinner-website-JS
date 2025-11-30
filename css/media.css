@@ -1,0 +1,39 @@
+@media screen and (min-width: 576px) {
+  /* موبايل كبير أو تابلت صغير */
+}
+
+@media screen and (min-width: 768px) {
+  /* تابلت */
+.img-hero{
+  height: 100%;
+}
+}
+
+@media screen and (min-width: 992px) {
+  /* لابتوب صغير */
+  .hidden-name{
+    display: none;
+  }
+
+ 
+}
+
+@media screen and (min-width: 1200px) {
+  /* شاشات كبيرة */
+
+  header .container{
+    height: 90vh;
+  }
+  .align-items-center-sm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+}
+
+
+@media screen and (min-width: 1400px) {
+  /* شاشات ضخمة */
+
+}
