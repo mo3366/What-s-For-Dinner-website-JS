@@ -11,6 +11,7 @@ var products = [
   imageurl: "img/1.jpeg",
   strars: "4.7",
   reviews: "310 reviews",
+
   Ingredient: [
     "150g grilled chicken",
     "1 cup quinoa",
@@ -36,7 +37,9 @@ var products = [
     Calories: "480 kcal",
     Protein: "42g",
     Carbohydrates: "38g",
-    Fat: "18g"
+    Fat: "18g",
+      Fiber:"8g",
+  Sodium:"820mg",
   },
   Chef: [
     "Add hummus for extra creaminess.",
@@ -58,6 +61,7 @@ var products = [
   imageurl: "img/2.jpeg",
   strars: "4.6",
   reviews: "280 reviews",
+
   Ingredient: [
     "Romaine lettuce",
     "Grilled chicken breast",
@@ -83,7 +87,9 @@ var products = [
     Calories: "420 kcal",
     Protein: "36g",
     Carbohydrates: "20g",
-    Fat: "22g"
+    Fat: "22g",
+        Fiber:"10g",
+  Sodium:"600mg",
   },
   Chef: [
     "Use fresh parmesan.",
@@ -104,6 +110,7 @@ var products = [
   imageurl: "img/3.jpeg",
   strars: "4.8",
   reviews: "403 reviews",
+
   Ingredient: [
     "150g salmon fillet",
     "Mixed greens",
@@ -129,7 +136,9 @@ var products = [
     Calories: "510 kcal",
     Protein: "34g",
     Carbohydrates: "14g",
-    Fat: "36g"
+    Fat: "36g",
+        Fiber:"30g",
+  Sodium:"500mg",
   },
   Chef: [
     "Do not overcook salmon.",
@@ -150,6 +159,7 @@ var products = [
   imageurl: "img/4.jpeg",
   strars: "4.9",
   reviews: "610 reviews",
+
   Ingredient: [
     "Rice noodles",
     "Shrimp",
@@ -175,7 +185,9 @@ var products = [
     Calories: "590 kcal",
     Protein: "32g",
     Carbohydrates: "62g",
-    Fat: "22g"
+    Fat: "22g",
+        Fiber:"12g",
+  Sodium:"845mg",
   },
   Chef: [
     "Do not over-soak noodles.",
@@ -197,6 +209,7 @@ var products = [
     imageurl: "img/5.jpeg",
     strars: "4.7",
     reviews: "330 reviews",
+
     Ingredient: [
       "Chicken slices",
       "Mushrooms",
@@ -215,7 +228,9 @@ var products = [
       Calories: "350 kcal",
       Protein: "24g",
       Carbohydrates: "18g",
-      Fat: "22g"
+      Fat: "22g",
+            Fiber:"10g",
+  Sodium:"405mg",
     },
     Chef: [
       "Use fresh lemongrass for best flavor",
@@ -236,6 +251,7 @@ var products = [
     imageurl: "img/6.jpeg",
     strars: "4.5",
     reviews: "220 reviews",
+
     Ingredient: [
       "Grilled chicken slices",
       "Lettuce",
@@ -253,7 +269,9 @@ var products = [
       Calories: "420 kcal",
       Protein: "28g",
       Carbohydrates: "30g",
-      Fat: "18g"
+      Fat: "18g",
+            Fiber:"4g",
+  Sodium:"300mg",
     },
     Chef: [
       "Add crispy bacon for extra flavor"
@@ -271,6 +289,7 @@ var products = [
     imageurl: "img/7.jpeg",
     strars: "4.8",
     reviews: "510 reviews",
+
     Ingredient: [
       "2 beef patties",
       "Cheddar cheese",
@@ -288,7 +307,9 @@ var products = [
       Calories: "670 kcal",
       Protein: "45g",
       Carbohydrates: "34g",
-      Fat: "42g"
+      Fat: "42g",
+            Fiber:"26g",
+  Sodium:"260mg",
     },
     Chef: [
       "Do not press patties on the grill",
@@ -310,6 +331,7 @@ var products = [
     imageurl: "img/8.jpeg",
     strars: "4.7",
     reviews: "440 reviews",
+
     Ingredient: [
       "Pizza dough",
       "Tomato sauce",
@@ -327,7 +349,9 @@ var products = [
       Calories: "620 kcal",
       Protein: "28g",
       Carbohydrates: "70g",
-      Fat: "22g"
+      Fat: "22g",
+            Fiber:"14g",
+  Sodium:"900mg",
     },
     Chef: [
       "Use fresh basil after baking",
@@ -347,6 +371,7 @@ var products = [
     imageurl: "img/9.jpeg",
     strars: "4.6",
     reviews: "300 reviews",
+
     Ingredient: [
       "Egg noodles",
       "Bell peppers",
@@ -363,7 +388,9 @@ var products = [
       Calories: "480 kcal",
       Protein: "12g",
       Carbohydrates: "68g",
-      Fat: "16g"
+      Fat: "16g",
+            Fiber:"22g",
+  Sodium:"580mg",
     },
     Chef: [
       "Cook noodles slightly underdone"
@@ -381,6 +408,7 @@ var products = [
     imageurl: "img/10.jpeg",
     strars: "4.8",
     reviews: "350 reviews",
+
     Ingredient: [
       "Cooked rice",
       "Chicken cubes",
@@ -398,7 +426,9 @@ var products = [
       Calories: "520 kcal",
       Protein: "32g",
       Carbohydrates: "60g",
-      Fat: "18g"
+      Fat: "18g",
+            Fiber:"18g",
+  Sodium:"370mg",
     },
     Chef: [
       "Use cold rice for best texture"
